@@ -1,0 +1,4 @@
+aiohttp
+aiodns 
+requests 
+BeautifulSoup4
