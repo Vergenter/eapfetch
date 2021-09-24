@@ -6,8 +6,8 @@ import async_timeout
 # https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 from bs4 import BeautifulSoup
 import logging
-logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', filename='feching.log',
-                    encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
+                    filename='feching.log', level=logging.DEBUG)
 
 URL = "https://eatapplepies.com/tcf-chapter-712/"
 INTERVAL = datetime.timedelta(seconds=60)
